@@ -9,9 +9,16 @@ $(function() {
 			pageTop = $(page).offset().top; 
 			console.log('yeeeha', pageTop, scrollTop);
 			if (scrollTop<pageTop) {
-				window.scrollTo(0, pageTop);
+				$.scrollTo(pageTop, 800);
 				return false; 
 			} 
 		}); 
 	});
+
+});
+
+$(window).scroll(function() {
+	var persent = $(window).scrollTop() / ($('.intro').height() / 2);
+	console.log(persent);
+	$('.blurintro').css("opacity", persent)
 });
