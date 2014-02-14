@@ -1,0 +1,52 @@
+/* base colors */
+
+
+body {
+	margin: 0;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+h1, h2, h3, h4, h5 {
+}
+p, span {
+	font-size: 0.8em;
+}
+.page {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+.red {
+	/*background-color: rgb(100, 180, 255);*/
+	color: white;
+	background-color: #B23937;
+}
+.orange {
+	background-color: #CC7343;
+}
+.yellow {
+	color: #454545;
+	background-color: #D4AC6B;
+}
+.green {
+	background-color: #354721;
+}
+
+.left {
+	padding: 20% 50% 30% 10%;
+}
+.right {
+	padding: 20% 10% 30% 50%;
+}
+.middle {
+	padding: 20%;
+	margin: auto;
+	width: 40%;
+}
+.next-page {
+	cursor: pointer;
+	font-size: 2em;
+	position: absolute;
+	bottom: 50px;
+	left: 100px;
+}
